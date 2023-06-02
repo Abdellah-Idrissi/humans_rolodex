@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="">
-      <h1 className='text-[#0ccac4] font-["Bigelow_Rules"] text-[75px] sm:text-[100px]'>Humans Rolodex</h1>
+      <h1 className='text-[#0ccac4] font-["Bigelow_Rules"] text-[75px] sm:text-[100px]'> Rolodex</h1>
       <SearchBox placeholder='search humans' filterOnChange={filterOnChange}/>
       <HumansList humans={filteredHumans}/>
     </div>
